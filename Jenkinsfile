@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage ('git clone') {
             steps {
-                git url: 'https://github.com/srinudammalapati/saleor-platform.git'
+                git url: 'https://github.com/srinudammalapati/saleor-platform.git',
                 branch: 'main'
             }
 
